@@ -10,7 +10,7 @@ A simple URL shortener built with FastAPI and Postgresql for storage.
 ## Technologies Used
 
 - **FastAPI** - For building the web API  
-- **SQLite / PostgreSQL** - For storing URLs  
+- **PostgreSQL** - For storing URLs  
 - **SQLAlchemy** - For database operations  
 - **Asynchronous Processing** - Using `async` & `await` for high performance  
 
