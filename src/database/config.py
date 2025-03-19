@@ -5,7 +5,7 @@ import sqlalchemy
 metadata = sqlalchemy.MetaData()
 
 DATABASE_URL = os.environ.get("DATABASE_URL")
-print(DATABASE_URL)
+
 if DATABASE_URL is None:
     raise ValueError("Database Url is not set or is unaccessible")
 
