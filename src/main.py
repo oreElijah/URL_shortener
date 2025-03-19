@@ -12,4 +12,4 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 
-app.include_router(url_router, prefix="/url")
+app.include_router(url_router, prefix="/apo/v1/url")
